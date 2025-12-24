@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blueprint Tablet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- starts hidden until NUI message -->
+  <div id="root" class="hidden" style="display: none;">
+    <div class="tablet">
+      <div class="tablet-header">
+        <div class="title-block">
+          <div class="pill">Blueprint System</div>
+          <h1>Blueprint Tablet</h1>
+          <p>Track which crafting blueprints your character has unlocked.</p>
+        </div>
+        <button class="close-btn" id="close-btn">✕</button>
+      </div>
+
+      <div class="toolbar">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="learned">Learned</button>
+          <button class="filter-btn" data-filter="locked">Locked</button>
+        </div>
+        <div class="search">
+          <input type="text" id="search-input" placeholder="Search by name, tier or category..." />
+        </div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item">
+          <span class="dot dot-learned"></span> Learned
+        </div>
+        <div class="legend-item">
+          <span class="dot dot-available"></span> Learnable (you have the blueprint item)
+        </div>
+        <div class="legend-item">
+          <span class="dot dot-locked"></span> Locked
+        </div>
+        <div class="legend-item note">
+          Click <strong>Learn</strong> to consume a blueprint item and unlock it.
+        </div>
+      </div>
+
+      <!-- in-tablet toast -->
+      <div id="tablet-toast" class="toast hidden"></div>
+
+      <div class="grid" id="blueprint-grid">
+        <!-- cards from script.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
