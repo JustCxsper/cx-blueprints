@@ -4,6 +4,14 @@
 
 ---
 
+### Screenshots
+[![Tablet](./media/ui.png)](./media/ui.png)
+
+
+### ▶ Watch the Feature Showcase
+https://youtu.be/ugqYNYQA69I
+
+
 ## What This Does (Short)
 
 Players must **learn blueprints** before they can craft certain items.
