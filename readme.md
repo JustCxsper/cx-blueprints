@@ -5,7 +5,7 @@
 ---
 
 ### Screenshots
-[![Tablet](./media/ui.png)](./media/ui.png)
+[![Tablet](./INSTALL/media/ui.png)](./INSTALL/media/ui.png)
 
 
 ### ▶ Watch the Feature Showcase

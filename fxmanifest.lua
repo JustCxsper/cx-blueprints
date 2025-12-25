@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 name 'cx-blueprints'
-description 'Rust-style Blueprint Tablet for Qbox + ox_inventory'
+description 'A lightweight blueprint progression system designed to plug directly into oxinventory crafting.'
 author 'Cxsper'
 version '1.0.0'
 
@@ -14,11 +14,11 @@ shared_scripts {
 }
 
 client_scripts {
-    'client.lua'
+    'client/*.lua'
 }
 
 server_scripts {
-    'server.lua'
+    'server/*.lua'
 }
 
 ui_page 'html/index.html'
