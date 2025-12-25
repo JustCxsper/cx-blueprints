@@ -1,6 +1,6 @@
 # CX-Blueprints — Setup & Usage Guide
 
-*Rust-style blueprint progression for ox_inventory crafting*
+## YOU MAY NOT SELL OR REDISTRIBUTE THIS CODE
 
 ---
 
@@ -55,8 +55,14 @@ Inside `Config.Blueprints`, add entries like:
   description = 'Basic sidearm.',
 },
 ```
+### Rarity Options
+- `common`
+- `uncommon`
+- `rare`
+- `epic`
+- `legendary`
 
-**MOST IMPORTANT:** `name` must match the `ox_inventory` item name exactly.
+**IMPORTANT:** `name` must match the `ox_inventory` item name exactly.
 
 Then, in the same file, add readable labels to `Config.RequireLabels`:
 
@@ -66,7 +72,9 @@ Config.RequireLabels = {
 }
 ```
 
-This is what shows in the tablet when missing.
+This is what shows in the tablet when missing. 
+
+Add Image (if i can be arsed lol)
 
 ---
 
