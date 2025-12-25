@@ -1,6 +1,6 @@
 # CX-Blueprints — Setup & Usage Guide
 
-*Rust-style blueprint progression for ox_inventory crafting*
+## YOU MAY NOT SELL OR REDISTRIBUTE THIS CODE
 
 ---
 
