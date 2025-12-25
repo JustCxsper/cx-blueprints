@@ -58,6 +58,7 @@ Inside `Config.Blueprints`, add entries like:
 ### Rarity Options
 Rarity options: `common`, `uncommon`, `rare`, `epic`, `legendary`
 
+---
 
 **MOST IMPORTANT:** `name` must match the `ox_inventory` item name exactly.
 
