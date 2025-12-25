@@ -58,8 +58,6 @@ Inside `Config.Blueprints`, add entries like:
 ### Rarity Options
 Rarity options: `common`, `uncommon`, `rare`, `epic`, `legendary`
 
----
-
 **MOST IMPORTANT:** `name` must match the `ox_inventory` item name exactly.
 
 Then, in the same file, add readable labels to `Config.RequireLabels`:
@@ -70,7 +68,9 @@ Config.RequireLabels = {
 }
 ```
 
-This is what shows in the tablet when missing.
+This is what shows in the tablet when missing. 
+
+Add Image (if i can be arsed lol)
 
 ---
 
