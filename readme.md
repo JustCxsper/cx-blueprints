@@ -1,7 +1,5 @@
 # CX-Blueprints — Setup & Usage Guide
 
-## YOU MAY NOT SELL OR REDISTRIBUTE THIS CODE
-
 ---
 
 ### Screenshots
